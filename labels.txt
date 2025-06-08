@@ -1,0 +1,3 @@
+0 Dent
+1 Scratches
+2 Weather Damage
