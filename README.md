@@ -4,7 +4,9 @@ This project is a web-based application that classifies the type of damage on a 
 
 The model is trained using Google Teachable Machine and deployed using Streamlit for real-time inference through a simple web interface.
 
-🔍 Problem Statement
+--- 
+
+## 🔍 Problem Statement
 
 Manual inspection of vehicle damage is time-consuming and subjective, especially in insurance claim processing and vehicle assessments. This project aims to automate the initial damage classification process using computer vision and deep learning techniques.
 
@@ -24,29 +26,28 @@ Manual inspection of vehicle damage is time-consuming and subjective, especially
 
 - Fast and lightweight deployment using Streamlit
 
-🧠 Model Training
+--- 
 
-The dataset was created and labeled using Google Teachable Machine.
+## 🧠 Model Training
 
-A CNN-based image classification model was trained using transfer learning.
+- The dataset was created and labeled using Google Teachable Machine.
+- A CNN-based image classification model was trained using transfer learning.
+- The trained model was exported in Keras (.h5) format for local deployment.
+- Labels were exported using labels.txt.
 
-The trained model was exported in Keras (.h5) format for local deployment.
+---
 
-Labels were exported using labels.txt.
+## ⚙️ Tech Stack
 
-⚙️ Tech Stack
+- Python
 
-Python
+- TensorFlow / Keras
 
-TensorFlow / Keras
+- Streamlit (Web App Framework)
 
-Streamlit (Web App Framework)
+- NumPy
 
-NumPy
-
-Pillow (PIL)
-
-Google Teachable Machine (Model Training)
+- Google Teachable Machine (Model Training)
 
 🖥️ Application Workflow
 
