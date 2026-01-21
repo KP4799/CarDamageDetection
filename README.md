@@ -12,13 +12,13 @@ Manual inspection of vehicle damage is time-consuming and subjective, especially
 
 - Upload car images through a web interface
 
-- - Automatic classification of damage type:
+  - Automatic classification of damage type:
 
-- - Scratch
+  - Scratch
 
-- - Dent
+  - Dent
 
-- Weather Damage
+  - Weather Damage
 
 - Displays prediction confidence score
 
