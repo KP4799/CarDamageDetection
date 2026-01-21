@@ -1,4 +1,4 @@
-#🚗 Car Damage Detection Using Deep Learning
+# 🚗 Car Damage Detection Using Deep Learning
 
 This project is a web-based application that classifies the type of damage on a car from an uploaded image. The system predicts whether the damage is a scratch, dent, or weather-related damage using a trained Convolutional Neural Network (CNN) model and displays the prediction with a confidence score.
 
@@ -10,19 +10,19 @@ Manual inspection of vehicle damage is time-consuming and subjective, especially
 
 ✅ Features
 
-Upload car images through a web interface
+- Upload car images through a web interface
 
-Automatic classification of damage type:
+- - Automatic classification of damage type:
 
-Scratch
+- - Scratch
 
-Dent
+- - Dent
 
-Weather Damage
+- Weather Damage
 
-Displays prediction confidence score
+- Displays prediction confidence score
 
-Fast and lightweight deployment using Streamlit
+- Fast and lightweight deployment using Streamlit
 
 🧠 Model Training
 
