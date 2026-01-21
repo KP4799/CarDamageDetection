@@ -13,15 +13,11 @@ Manual inspection of vehicle damage is time-consuming and subjective, especially
 ## ✅ Features
 
 - Upload car images through a web interface
-
   - Automatic classification of damage type:
-
   - Scratch
   - Dent
   - Weather Damage
-
 - Displays prediction confidence score
-
 - Fast and lightweight deployment using Streamlit
 
 ## 🧠 Model Training
