@@ -30,7 +30,7 @@ class_names = open("labels.txt", "r").readlines()
 # The 'length' or number of images you can put into the array is
 # determined by the first position in the shape tuple, in this case 1
 
-st.title("Car Damage Detection")
+st.title("Car Damage Classification")
 file = st.file_uploader("Please upload an image", type=["jpg", "png", "jpeg"])
 
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
